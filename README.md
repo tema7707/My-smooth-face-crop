@@ -1,5 +1,7 @@
 # My smooth face shifter
 
+![Image](./media/git/crop_padding_and_rotation.png)
+
 This repository contains an implementation of my smooth face shifter.  This algorithm solves the problem of face shaking when transferring a face to a video. The [face-alignment](https://github.com/1adrianb/face-alignment "face-alignment") library was used to detect the key points of the face, and the [FaceShifter](https://github.com/taotaonice/FaceShifter "FaceShifter") network was used to transfer the face.
 
 ### Goals
@@ -11,7 +13,6 @@ This repository contains an implementation of my smooth face shifter.  This algo
     - [ ] Align with [Active Appearance Model](https://www.menpo.org/menpofit/aam.html#warp)
 - [x] Overlay
 - [x] Face swap with FaceShifter
- - [ ] Fine-tune
 - [x] Video processing
 - [ ] Processing multiple faces
 
